@@ -1,0 +1,19 @@
+# Ignore Data files
+data/pretrain/*
+data/sft/*
+data/grpo/*
+!data/pretrain/.gitkeep
+!data/sft/.gitkeep
+!data/grpo/.gitkeep
+*.jsonl
+*.txt
+
+# Ignore Model Checkpoints
+checkpoints/*
+*.pt
+*.pth
+*.bin
+
+# Ignore Python caches
+__pycache__/
+*.pyc
