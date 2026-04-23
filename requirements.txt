@@ -1,0 +1,15 @@
+# Core ML/DL Libraries
+torch
+transformers
+datasets
+huggingface_hub
+
+# Hardware Acceleration & Optimization
+bitsandbytes
+peft
+accelerate
+
+# Utility
+# (For future use, not strictly required by the initial code)
+numpy
+tqdm
